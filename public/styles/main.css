@@ -1,0 +1,249 @@
+/* Footer styles */
+footer {
+  background-color: #fae8e8;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 94%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Additional style for the current year span */
+#currentYear {
+  font-weight: bold;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Reset default margin and padding */
+.about-body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Change the font family as needed */
+  background-color: #f8f8f8; /* Background color for the body */
+}
+/* About us styles */
+/* Main heading style */
+.about-h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333; /* Color for the main heading */
+}
+
+/* Container for content */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Background color for the content */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  line-height: 1.6;
+  color: #444; /* Text color */
+}
+
+/* Section headings */
+.about-content h2 {
+  color: #333; /* Color for section headings */
+  margin-top: 20px;
+}
+
+/* Style for paragraph text */
+.about-content p {
+  margin-bottom: 15px;
+}
+
+/* Style for list items */
+.about-content li {
+  margin-bottom: 10px;
+}
+
+/* Links within the content */
+.about-content a {
+  color: #007bff; /* Color for links */
+  text-decoration: underline;
+}
+
+/* Footer */
+/* Reset default margin and padding */
+.contact-body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Change the font family as needed */
+  background-color: #f8f8f8; /* Background color for the body */
+}
+
+/* Main heading style */
+.contact-heading {
+  text-align: center;
+  margin-top: 30px;
+  color: #333; /* Color for the main heading */
+}
+
+/* Container for content */
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Background color for the content */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  line-height: 1.6;
+  color: #444; /* Text color */
+}
+
+/* Links within the content */
+.contact-content a {
+  color: #007bff; /* Color for links */
+  text-decoration: underline;
+}
+/* write blog style */
+/* General styles */
+.write-body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Heading style */
+.home-blog-heading {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Form styles */
+.write-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles */
+.label-heading {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Input styles */
+.input-heading {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Input content style */
+.input-content {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* Increase the height of the input */
+  height: 200px; /* Set the desired height */
+  resize: vertical; /* Allow vertical resizing */
+}
+/* Submit button style */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .write-form {
+    max-width: 90%;
+  }
+}
+
+/* Home Page styles */
+.home-blog-body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* Background color for the body */
+  color: #333; /* Default text color */
+}
+
+/* Main heading style */
+.home-blog-heading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #333; /* Color for the main heading */
+}
+
+/* Blog post styles */
+.home-blogs-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #444; /* Color for blog headings */
+}
+
+.home-blogs-contents {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}

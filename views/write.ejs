@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+<body class="write-body">
+  <h1 class="home-blog-heading">Write Your blog</h1>
+  <form action="/submit" method="POST" class="write-form">
+    <label class="label-heading" for="heading"> Blog Heading:</label>
+    <input
+      id="heading"
+      class="input-heading"
+      type="text"
+      placeholder="heading"
+      name="heading"
+    />
+    <label class="label-heading" for="content"> Blog Content:</label>
+    <input
+      id="content"
+      class="input-content"
+      type="text"
+      placeholder="write here ..."
+      name="content"
+    />
+
+    <button class="btn btn-primary submit-btn" type="submit">Submit</button>
+  </form>
+</body>
+
+<%- include("partials/footer.ejs") %>
